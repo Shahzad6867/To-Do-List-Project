@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #header {
+    min-height: 100px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 24px 40px;
+  
+    background: linear-gradient(
+      135deg,
+      #7c3aed,
+      #5b21b6
+    );
+
+    border-radius: 20px;
+
+    box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  #header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  #logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-icon {
+    font-size: 2rem;
+  }
+  
+  #logo-text {
+    margin: 0;
+  
+    color: white;
+
+    font-family: "Nunito";
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  
+  #header-subtitle {
+    margin: 0;
+  
+    color: rgba(255, 255, 255, 0.85);
+  
+    font-size: 0.95rem;
+    font-family: "Nunito";
+    font-weight: 500;
+  }
+  
+  #add-task-btn {
+    border: none;
+  
+    padding: 14px 24px;
+  
+    border-radius: 12px;
+  
+    background-color: white;
+  
+    color: #5b21b6;
+  
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Nunito';
+
+    cursor: pointer;
+  
+    transition: all 0.25s ease;
+  }
+  
+  #add-task-btn:hover {
+    transform: translateY(-2px);
+  
+    box-shadow:
+      0 8px 20px rgba(255, 255, 255, 0.2);
+  }

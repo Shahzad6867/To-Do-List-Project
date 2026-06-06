@@ -1,0 +1,145 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    background: rgba(0, 0, 0, 0.6);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    backdrop-filter: blur(6px);
+    z-index: 9999;
+  }
+  
+  .modal-box {
+    width: 420px;
+  
+    background: rgba(30, 41, 59, 0.95);
+  
+    border-radius: 18px;
+  
+    padding: 20px;
+  
+    border: 1px solid rgba(255,255,255,0.08);
+  
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  
+    color: white;
+
+  }
+  
+  /* HEADER */
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-bottom: 15px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .close-btn {
+    border: none;
+  
+    background: transparent;
+  
+    color: #94a3b8;
+  
+    font-size: 1.2rem;
+  
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: white;
+  }
+  
+  /* INPUTS */
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .input-group label {
+    font-size: 0.85rem;
+    color: #94a3b8;
+  }
+  
+  .input-group input {
+    padding: 10px 12px;
+  
+    border-radius: 10px;
+  
+    border: 1px solid rgba(255,255,255,0.08);
+  
+    background: #0f172a;
+  
+    color: white;
+  
+    outline: none;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* FOOTER */
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  
+    gap: 10px;
+  
+    margin-top: 18px;
+  }
+  
+  .cancel-btn {
+    padding: 10px 14px;
+  
+    border-radius: 10px;
+  
+    border: none;
+  
+    background: rgba(255,255,255,0.08);
+  
+    color: white;
+  
+    cursor: pointer;
+  }
+  
+  .create-btn {
+    padding: 10px 14px;
+  
+    border-radius: 10px;
+  
+    border: none;
+  
+    background: #7c3aed;
+  
+    color: white;
+  
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  .create-btn:hover {
+    background: #6d28d9;
+  }
